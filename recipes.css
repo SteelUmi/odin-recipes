@@ -6,14 +6,22 @@ body {
     color:rgb(78, 81, 253);
 }
 
-.recipes {
+.recipes,
+.list {
     text-align: left;
 }
 
-button#pet {
+button#pet,
+.home {
     background-color:rgb(255, 127, 127);
     color: white;
     font-weight: bold;
     font-size: 30px;
     
+}
+
+.home {
+    background-color:rgba(118, 250, 114, 0);
+    font-weight: 400;
+    color:rgb(78, 81, 253);
 }
