@@ -3,17 +3,22 @@
     <head>
         <meta charset="utf-8">
         <title>Odin Recipes</title>
+        <link rel="stylesheet" href="./recipes.css">
     </head>
 
-    <body>
+    <body id="main">
         <h1>Odin Recipes</h1>
-        <p>Here are some recipes that I found online of my favorite foods which I eat all the time! Enjoy!</p>
-        <ul>
-        <li><a href="recipes/ramen.html">Ramen Noodles recipe!</a>
-        <li><a href="recipes/hummus.html">Hummus recipe!</a></li>
-        <li><a href="recipes/potatowedges.html">Potato Wedges recipe!</a></li>
+        <p id="intro">Here are some recipes that I found online of my favorite foods which I eat all the time! Enjoy!</p>
+        <ul class="recipes">
+        <li class="recipes child"><a href="recipes/ramen.html">Ramen Noodles recipe!</a>
+        <li class="recipes child"><a href="recipes/hummus.html">Hummus recipe!</a></li>
+        <li class="recipes child"><a href="recipes/potatowedges.html">Potato Wedges recipe!</a></li>
     </ul>
-    <img src="recipe-photos/otterchef.jpeg" alt="animated otter wearing a chef hat holding a plate with food">
+    <img id="otter" src="recipe-photos/otterchef.jpeg" alt="animated otter wearing a chef hat holding a plate with food" height="225 px" width="225 px">
+    <div class="divider">
+        <button id="pet" class="click">Pet the Otter Chef!</button>
+    </div>
+    
     
     </body>
 

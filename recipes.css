@@ -1,0 +1,19 @@
+body {
+    background-color:rgb(255, 219, 247);
+    font-family: Garamond, serif, Times;
+    font-size: 24px;
+    text-align: center;
+    color:rgb(78, 81, 253);
+}
+
+.recipes {
+    text-align: left;
+}
+
+button#pet {
+    background-color:rgb(255, 127, 127);
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
