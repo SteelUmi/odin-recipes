@@ -1,3 +1,11 @@
+* {
+    box-sizing: border-box;
+    padding: 25px;
+    margin: 10px;
+    border: visible 3px;
+    outline: solid 3px red;
+}
+
 body {
     background-color:rgb(255, 219, 247);
     font-family: Garamond, serif, Times;
@@ -6,22 +14,46 @@ body {
     color:rgb(78, 81, 253);
 }
 
-.recipes,
-.list {
-    text-align: left;
+#intro {
+    font-size: 20px;
 }
-
+.recipes {
+    text-align: center;
+    text-indent: 0px;
+}
+::marker {
+    font-size:0px;
+}
 button#pet,
 .home {
     background-color:rgb(255, 127, 127);
     color: white;
     font-weight: bold;
-    font-size: 30px;
-    
+    font-size: 28px;
 }
-
+#otter, 
+#pet,
+a {
+    margin: 1px;
+    padding: 1px;
+}
+.ytube {
+    padding:16px;
+}
 .home {
     background-color:rgba(118, 250, 114, 0);
     font-weight: 400;
     color:rgb(78, 81, 253);
+    padding: 24px 16px 0px 16px;
+    text-align: center;
+}
+
+button {
+    height: 60px;
+    width: auto;
+}
+
+.directions,
+.ingredients {
+    text-align: left;
 }
